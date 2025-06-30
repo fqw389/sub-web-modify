@@ -340,8 +340,8 @@ export default {
         customBackend: {
           "CM负载均衡后端【vless reality+hy1+hy2】": "https://subapi.cmliussss.net",
           "CM应急备用后端【vless reality+hy1+hy2】": "https://subapi.fxxk.dedyn.io",
+          "魔法咖后端": "https://sub.5556.tech",
           "肥羊增强型后端【vless reality+hy1+hy2】": "https://url.v1.mk",
-          "肥羊备用后端【vless reality+hy1+hy2】": "https://sub.d1.mk",
           nameless13提供: "https://www.nameless13.com",
           subconverter作者提供: "https://sub.xeton.dev",
           "sub-web作者提供": "https://api.wcc.best",
@@ -357,11 +357,11 @@ export default {
         ],
         remoteConfig: [
           {
-            label: "CM规则",
+            label: "配置规则",
             options: [
               {
-                label: "CM_Online 默认版 识别港美地区(与Github同步)",
-                value: "https://raw.githubusercontent.com/cmliu/ACL4SSR/main/Clash/config/ACL4SSR_Online.ini"
+                label: "魔法咖默认",
+                value: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/config/ACL4SSR_Online.ini"
               },
               {
                 label: "CM_Online_MultiCountry 识别港美地区 负载均衡(与Github同步)",
